@@ -1,0 +1,19 @@
+/* .App {
+	text-align: center;
+	padding: 128px 0;
+} */
+.section {
+	padding: 16px 0;
+}
+.cardImage {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+.colorPalette {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #fffbff;
+}
