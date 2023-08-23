@@ -1,5 +1,9 @@
 # Material ui components and styles for react
 
+## Resources
+
+[From zero to hero](https://www.youtube.com/playlist?list=PLDxCaNaYIuUlG5ZqoQzFE27CUOoQvOqnQ)
+
 ## Installation
 
 ```bash

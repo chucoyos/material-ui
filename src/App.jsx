@@ -1,22 +1,25 @@
 import './App.css'
 import Container from '@mui/material/Container'
-import SearchAppBar from './components/AppBar'
-// import cities from '../src/data.json'
-// import Typography from '@mui/material/Typography'
-// import Grid from '@mui/material/Grid'
-// import TourCard from './components/TourCard'
-import Components from './components/Components'
+import Typography from '@mui/material/Typography'
+import Grid from '@mui/material/Grid'
+import TourCard from './components/TourCard'
+import cities from './data.json'
+import PermanentDrawerLeft from './components/PermanentDrawerLeft'
+
 function App() {
 	return (
 		<div className='App'>
-			<SearchAppBar />
+			<h1>Top</h1>
+			{/* <SearchAppBar /> */}
+
+			<PermanentDrawerLeft />
 			<Container
 				sx={{
 					marginTop: '20px',
 				}}
 			>
-				<Components />
-				{/* {cities.map((city) => (
+				{/* <Components /> */}
+				{cities.map((city) => (
 					<>
 						<Typography
 							key={city.id}
@@ -39,7 +42,7 @@ function App() {
 							))}
 						</Grid>
 					</>
-				))} */}
+				))}
 			</Container>
 		</div>
 	)
